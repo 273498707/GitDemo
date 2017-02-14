@@ -3,7 +3,13 @@ Main()
 	print "hello word"
 }
 
-metho()
+metho(string name)
 {
-	print "my name is 奔奔"
+	print "my name is " + name;
+}
+
+show()
+{
+	string name = "奔奔";
+	metho(name);
 }
